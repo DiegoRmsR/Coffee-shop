@@ -2,6 +2,7 @@ from django.test import TestCase
 from django.urls import reverse
 from django.contrib.auth import get_user_model
 
+
 class MyOrderViewTests(TestCase):
 
     def test_no_logged_user_should_redirect(self):
